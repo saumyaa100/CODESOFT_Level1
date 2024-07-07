@@ -1,0 +1,204 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background: #ff6600;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav .logo h1 {
+    margin: 0;
+    font-size: 1.5em;
+    margin-top:10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+header {
+    background-image: url('https://static.showit.co/1200/7gMiQRTISn-mbVNEWLpuDg/152284/cat_7317.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ff6600;
+    text-align: center;
+    padding-top: 50px; /* Adjust padding to avoid overlap with fixed nav */
+}
+
+header .container {
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-size: 3.5em;
+    margin-bottom: 18px;
+    text-shadow: white 1.5px 1.5px;
+}
+
+header p {
+    font-size: 2em;
+    margin-bottom: 40px;
+    color:white;
+    font-weight: bolder;
+    text-shadow: #ff6600 1.5px 1.5px;
+}
+
+header .btn {
+    background: #ff6600;
+    color: white;
+    padding: 15px 30px;
+    text-decoration:none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    border:3px solid white;
+}
+
+header .btn:hover {
+    background: white;
+    color:black;
+    cursor: pointer;
+    /* border:3px solid #ff6600; */
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.services {
+    background: #f4f4f4;
+}
+
+.services .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.services .service-item {
+    background-color: #ff6600;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 6px 10px #d6834c;
+    flex-basis: 30%;
+    box-sizing: border-box;
+    color:white;
+}
+
+
+.services h2, .contact h2 {
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    text-shadow: #ff6600 1.5px 1.5px;
+
+}
+.services .service-item:hover{
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 0 6px 10px #b6b5b4;
+  color:black;
+}
+
+.contact {
+    background: #ff6600;
+    color: white;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input, .contact textarea {
+    padding: 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact button {
+    padding: 15px;
+    background: white;
+    color: #ff6600;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background: #e6e6e6;
+}
+
+footer {
+    /* background: #333; */
+    /* background-color: white; */
+    /* color: white; */
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+.logo img{
+    display:flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.heart{
+    color: red;
+    /* font-size:s 1.5em; */
+}
+footer{
+    color:white;
+        background: #333;
+
+
+}
