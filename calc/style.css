@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(217, 158, 230);
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /* background-image: url('https://th.bing.com/th/id/OIP.K0_fDKlAYB8icE4-LsFKFAHaFO?w=256&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7');
+    background-repeat: no-repeat;  
+    background-attachment: fixed;  
+    background-position: center; 
+    background-size: cover;   */
+}
+h2{
+    color:rgb(177, 28, 210);
+    /* font-size: 2em; */
+    /* margin-bottom: 20px; */
+    margin-top:0px;
+
+}
+.calculator {
+    background-color: #fff;
+    border-radius: 10px;
+    /* box-shadow: 50 50 100px rgb(221, 87, 221); */
+    overflow: hidden;
+    /* height:80vh; */
+    width:377px;
+    padding-bottom: 30px;
+    border:2px solid rgb(177, 28, 210);
+}
+
+.display {
+    background-color: rgb(177, 28, 210);
+    color: #fff;
+    text-align: right;
+    padding: 18px;
+    font-size: 2em;
+    height:89px;
+    color:white;
+    /* padding-top: 0px; */
+    padding-bottom:0px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 12px;
+    /* padding-bottom: 25px; */
+}
+
+.button {
+    background-color: white;
+    border: none;
+    padding: 15px;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    /* padding-bottom: 30px; */
+    margin-top:20px;
+    margin-right: 8px;
+    margin-left : 8px;
+    border-radius:8px;
+    color:rgb(177, 28, 210);
+    border:2px solid rgb(177, 28, 210);
+}
+
+.button:hover {
+    /* background-color: #d0d0d0; */
+    background-color: rgb(177, 28, 210);
+    color:white;
+}
